@@ -13,7 +13,7 @@ import com.example.currencyexchange.settings.SettingsPreferences
 import com.example.currencyexchange.settings.Utils.getCurrentDate
 import kotlinx.coroutines.*
 
-class MainViewModel(application: Application) : AndroidViewModel(application) {
+class ExchangeRatesViewModel(application: Application) : AndroidViewModel(application) {
     var exchangeRatesData: MutableLiveData<ExchangeRates> = MutableLiveData()
     var networkErrorData: MutableLiveData<Boolean> = MutableLiveData()
 

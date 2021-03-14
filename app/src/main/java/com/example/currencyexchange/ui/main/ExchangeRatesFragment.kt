@@ -9,13 +9,13 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.currencyexchange.MainActivity
 import com.example.currencyexchange.R
-import com.example.currencyexchange.databinding.MainFragmentBinding
+import com.example.currencyexchange.databinding.ExchangeRatesFragmentBinding
 import com.example.currencyexchange.model.ExchangeRates
 
-class MainFragment : Fragment() {
+class ExchangeRatesFragment : Fragment() {
 
-    private lateinit var viewModel: MainViewModel
-    private var _binding: MainFragmentBinding? = null
+    private lateinit var viewModel: ExchangeRatesViewModel
+    private var _binding: ExchangeRatesFragmentBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,7 +25,7 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = MainFragmentBinding.inflate(inflater, container, false)
+        _binding = ExchangeRatesFragmentBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -36,7 +36,7 @@ class MainFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(ExchangeRatesViewModel::class.java)
         viewModel.startGetExchangeRatesJob()
 
         viewModel.exchangeRatesData.observe(viewLifecycleOwner, { exchangeRates ->

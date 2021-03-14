@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/main_fragment"
-        android:name="com.example.currencyexchange.ui.main.MainFragment"
+        android:name="com.example.currencyexchange.ui.main.ExchangeRatesFragment"
         android:label="Exchange Rates"
-        tools:layout="@layout/main_fragment">
+        tools:layout="@layout/exchange_rates_fragment">
         <action
             android:id="@+id/action_main_fragment_to_settings_fragment"
             app:destination="@id/settings_fragment" />
