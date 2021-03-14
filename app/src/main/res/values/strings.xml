@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CurrencyExchange</string>
+    <string name="CAD">1 %1$s = %2$f CAD</string>
+    <string name="HKD">1 %1$s = %2$f HKD</string>
+    <string name="ISK">1 %1$s = %2$f ISK</string>
+    <string name="PHP">1 %1$s = %2$f PHP</string>
+    <string name="DKK">1 %1$s = %2$f DKK</string>
+    <string name="HUF">1 %1$s = %2$f HUF</string>
+    <string name="CZK">1 %1$s = %2$f CZK</string>
+    <string name="AUD">1 %1$s = %2$f AUD</string>
+    <string name="RON">1 %1$s = %2$f RON</string>
+    <string name="SEK">1 %1$s = %2$f SEK</string>
+    <string name="IDR">1 %1$s = %2$f IDR</string>
+    <string name="INR">1 %1$s = %2$f INR</string>
+    <string name="BRL">1 %1$s = %2$f BRL</string>
+    <string name="RUB">1 %1$s = %2$f RUB</string>
+    <string name="HRK">1 %1$s = %2$f HRK</string>
+    <string name="JPY">1 %1$s = %2$f JPY</string>
+    <string name="THB">1 %1$s = %2$f THB</string>
+    <string name="CHF">1 %1$s = %2$f CHF</string>
+    <string name="SGD">1 %1$s = %2$f SGD</string>
+    <string name="PLN">1 %1$s = %2$f PLN</string>
+    <string name="BGN">1 %1$s = %2$f BGN</string>
+    <string name="TRY">1 %1$s = %2$f TRY</string>
+    <string name="CNY">1 %1$s = %2$f CNY</string>
+    <string name="NOK">1 %1$s = %2$f NOK</string>
+    <string name="NZD">1 %1$s = %2$f NZD</string>
+    <string name="ZAR">1 %1$s = %2$f ZAR</string>
+    <string name="USD">1 %1$s = %2$f USD</string>
+    <string name="MXN">1 %1$s = %2$f MXN</string>
+    <string name="ILS">1 %1$s = %2$f ILS</string>
+    <string name="GBP">1 %1$s = %2$f GBP</string>
+    <string name="KRW">1 %1$s = %2$f KRW</string>
+    <string name="MYR">1 %1$s = %2$f MYR</string>
+    <string name="EUR">1 %1$s = %2$f EUR</string>
+    <string name="settings">settings</string>
+    <string name="exchange_rates">Exchange Rates</string>
+    <string name="currency">Currency</string>
+    <string name="interval">Interval</string>
+    <string name="key_currency">currency</string>
+    <string name="key_interval">interval</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="history">History</string>
+    <string name="no_history">No History</string>
+
+
+    <string-array name="currencies">
+        <item>EUR</item>
+        <item>RON</item>
+        <item>USD</item>
+    </string-array>
+</resources>
